@@ -8,14 +8,14 @@
 
 需求：裁剪出该矩形，并保持正向
 
-(1)若四点如下所示（坐标轴顶点在左上角）
+希望四点如下所示，这样可以简单仿射到a(0,0),b(0,y),c(x,y),d(x,0)位置（坐标轴顶点在左上角）
 
 ![Image text](https://github.com/JerryHan-Peking/text_from_image/blob/master/example.png)
 
-分析ab,bc与x轴的夹角;若ab更接近水平,ac对调
+(1)分析ab,bc与x轴的夹角;若ab更接近水平,ac对调
 
 (2)b在a的下方，否则ab对调，cd对调
 
 (3)a在d的左方，否则ad对调，bc对调
  
- 代码见https://github.com/JerryHan-Peking/text_from_image/blob/master/cv2_cutting.py
+代码见https://github.com/JerryHan-Peking/text_from_image/blob/master/cv2_cutting.py ，注意：请调整读取和保存路径
