@@ -7,13 +7,9 @@
 
 (1)若四点如下所示（坐标轴顶点在左上角）
 
-----d--    分析ab,bc与x轴的夹角
+![Image text](https://github.com/JerryHan-Peking/text_from_image/blob/master/example.png)
 
-a------   若ab更接近水平,ac对调
-
-------c
-
---b----
+分析ab,bc与x轴的夹角;若ab更接近水平,ac对调
 
 (2)b在a的下方，否则ab对调，cd对调
 
